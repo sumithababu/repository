@@ -7,11 +7,11 @@ public class percentage {
 	int n1,n2,n3,n4;
 	double nr,TOTAL;
 	Scanner sc1=new Scanner(System.in);
-	System.out.print("Enter the total runs:");
+	System.out.println("Enter the total runs:");
 	n1=sc1.nextInt();
-	System.out.print("Enter the no.of.fours:");	
+	System.out.println("Enter the no.of.fours:");	
 	n2=sc1.nextInt();
-	System.out.print("Enter the no.of.sixes:");
+	System.out.println("Enter the no.of.sixes:");
 	n3=sc1.nextInt();
 	n4=(4*n2)+(6*n3);
 	System.out.println("total runs scored by the boundaries"+n4);
