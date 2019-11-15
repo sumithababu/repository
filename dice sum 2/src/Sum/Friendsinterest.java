@@ -8,21 +8,26 @@ public class Friendsinterest
 	int rate,threshold;
 	double interest;
 	double deposit;
-	rate = sc1.nextInt();
+
 	System.out.println( "enter the rate value");
-	threshold = sc1.nextInt();
+	rate = sc1.nextInt();
+	
 	System.out.println("enter the threshold value");
-	deposit = sc1.nextDouble();
+	threshold = sc1.nextInt();
+
 	System.out.println("enter the deposit value");
+	deposit = sc1.nextDouble();
 	 int year = 0;
 	interest = 0;
 	while(deposit<threshold)
 	{
 	interest=deposit*(rate/100);
 	   deposit=deposit+interest;
-	   system.out.println("")
+	   year++;
+	}
+	   System.out.println("the number of years is"+ year);
 	
-	
+	}
 	
 	}
 	 
@@ -31,5 +36,5 @@ public class Friendsinterest
 	
 	
 
-	}
-}
+	
+
