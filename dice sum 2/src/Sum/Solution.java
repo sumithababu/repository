@@ -46,7 +46,7 @@ public class Solution {
         PriorityQueue<Student> queue = new PriorityQueue<Student>();
 
         while(totalEvents>0){
-            String event = in.next();
+            String event = in.next(); 
             if (event.equals("ENTER")){
                 String name = in.next();
                 double cgpa = in.nextDouble();
