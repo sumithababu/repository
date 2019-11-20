@@ -2,13 +2,15 @@ package Sum;
 import java.util.Scanner;
 public class Friendsinterest 
 {
+	private static Scanner sc1;
+
 	public static void main(String[] args)
 	{
 	
 	int rate,threshold;
 	
 	double deposit;
-	Scanner sc1 = new Scanner(System.in);
+	sc1 = new Scanner(System.in);
 	System.out.println("enter the deposit value");
 	deposit = sc1.nextDouble();
 

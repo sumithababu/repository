@@ -1,5 +1,5 @@
 package NEWPROGRAMS;
-
+//i tried this for my sake.
 public class varargfuntn 
 {
 	public static void main(String[] args)
@@ -16,7 +16,7 @@ public static void jump(long... a)
 		System.out.println("the sum is"+add);
 }
 }
-
+//proper program from sir to print the numbers using vararg
 
 /*static int sum;
 public static void main(String[] args)
